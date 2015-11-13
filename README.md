@@ -1,4 +1,4 @@
-# [iCheck plugin](http://fronteed.com/iCheck/) <sup>[1.0.2](#march-03-2014)</sup>
+﻿# [iCheck plugin](http://fronteed.com/iCheck/) <sup>[1.0.2](#march-03-2014)</sup>
 #### Highly customizable checkboxes and radio buttons for jQuery and Zepto.
 
 Refer to the [iCheck website](http://fronteed.com/iCheck/) for examples.
@@ -222,6 +222,9 @@ determinate="false"
 ```
 
 `indeterminate` and `determinate` [methods](#methods) can be used to toggle indeterminate state.
+
+```css
+Currently the skins do not display the indeterminate state. They grey flat skin is an example on how to modify a skin to display the indeterminate state.
 
 Callbacks
 ---------

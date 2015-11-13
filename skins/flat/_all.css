@@ -319,8 +319,8 @@
     .icheckbox_flat-grey,
     .iradio_flat-grey {
         background-image: url(grey@2x.png);
-        -webkit-background-size: 176px 22px;
-        background-size: 176px 22px;
+        -webkit-background-size: 220px 22px;
+        background-size: 220px 22px;
     }
 }
 
