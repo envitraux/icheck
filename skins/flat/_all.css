@@ -292,6 +292,13 @@
     .icheckbox_flat-grey.checked.disabled {
         background-position: -66px 0;
     }
+     .icheckbox_flat-grey.indeterminate {
+        background-position: -176px 0;
+    }
+     .icheckbox_flat-grey.indeterminate.disabled {
+        background-position: -198px 0;
+    }
+    
 
 .iradio_flat-grey {
     background-position: -88px 0;
@@ -520,7 +527,7 @@
     }
 
 /* HiDPI support */
-@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_flat-purple,
     .iradio_flat-purple {
         background-image: url(purple@2x.png);
